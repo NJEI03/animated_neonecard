@@ -1,0 +1,62 @@
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card{
+    /* height: 70vh; */
+    width: 300px;
+    /* box-shadow:  5px 8px 7px 5px #11111f; */
+    box-shadow: ;
+    color:rgb(255, 200, 183);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border: 2px solid wheat;
+}
+.image{
+    padding: 4px;
+    background-color: rgb(52, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    width: 97%;
+
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    box-shadow:  5px 5px 20px 10px #252526;
+
+}
+.arrow {
+    margin-right: 7px;
+    margin-top: 20px;
+}
+.arrow a{
+    text-decoration: none;
+}
+.content, .foot{
+    padding-left: 20px;
+}
+.content p{
+    font-size: 14px;
+}
